@@ -59,9 +59,9 @@ function App() {
 
   return ( 
     <React.Fragment> 
-      <h1>Click On Home page 👆ss</h1>
     <Router>
       <Header title="My Todos List" searchBar={false} /> 
+      <h5 className='cl'>Click On Home page 👆 to Add a todo list</h5>
       <Switch>
           <Route exact path="/" render={()=>{
             return(
