@@ -5,6 +5,11 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: rgb(80, 0, 184);
+  color: white;
+}
+.col{
+  background: blueviolet;
 }
 
 code {
